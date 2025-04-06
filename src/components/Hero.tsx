@@ -53,18 +53,6 @@ const Hero = () => {
             <a href="#product">Learn More</a>
           </Button>
         </div>
-        
-        {/* Company description section */}
-        <div className="mt-24 border-t border-slate-100 pt-10">
-          <h2 className="text-2xl md:text-3xl font-bold text-slate-900 mb-4 font-display">
-            Transforming Business Through AI
-          </h2>
-          <p className="text-slate-600 max-w-3xl leading-relaxed">
-            Maverick AI helps enterprises harness the power of artificial intelligence to automate workflows, 
-            unlock insights from data, and create intelligent applications. Our solutions seamlessly integrate 
-            with existing systems, delivering immediate value while building a foundation for future innovation.
-          </p>
-        </div>
       </div>
     </section>
   );
