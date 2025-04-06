@@ -37,7 +37,7 @@ const Header = () => {
         </div>
         <nav>
           <ul className="flex space-x-4 md:space-x-6 uppercase text-xs tracking-wider font-medium">
-            {["About", "Features", "Product", "Contact"].map((item) => (
+            {["About", "Product", "Features", "Contact"].map((item) => (
               <li key={item}>
                 <a 
                   href={`#${item.toLowerCase()}`} 
