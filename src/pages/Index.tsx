@@ -12,9 +12,11 @@ const Index = () => {
         <Hero />
         <KeyPoints />
       </main>
-      <footer className="py-8 bg-gray-100 text-center text-gray-600 text-sm">
+      <footer className="py-12 bg-slate-100 text-center">
         <div className="container mx-auto px-4">
-          <p>&copy; {new Date().getFullYear()} Maverick AI. All rights reserved.</p>
+          <p className="text-slate-600 text-sm">
+            &copy; {new Date().getFullYear()} Maverick AI. All rights reserved.
+          </p>
         </div>
       </footer>
     </div>
