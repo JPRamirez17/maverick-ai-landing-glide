@@ -10,8 +10,7 @@ const Hero = () => {
             Redefining Intelligence For The Modern Enterprise
           </h1>
           <p className="text-lg md:text-xl text-gray-600 mb-8 leading-relaxed">
-            Maverick AI delivers cutting-edge artificial intelligence solutions that transform 
-            how businesses operate, innovate, and grow in today's digital landscape.
+            Maverick AI delivers cutting-edge artificial intelligence solutions.
           </p>
           <div className="flex flex-col sm:flex-row justify-center items-center gap-4 mt-8">
             <a 
