@@ -11,7 +11,7 @@ const Hero = () => {
   ];
 
   return (
-    <section className="pt-32 pb-16 md:pt-40 md:pb-24 bg-white">
+    <section id="about" className="pt-32 pb-16 md:pt-40 md:pb-24 bg-white">
       <div className="container mx-auto px-4 md:px-6">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12 items-start">
           {/* Left column with headline */}
@@ -50,7 +50,7 @@ const Hero = () => {
             className="border-slate-300 text-slate-700 hover:bg-slate-50"
             asChild
           >
-            <a href="#about">Learn More</a>
+            <a href="#product">Learn More</a>
           </Button>
         </div>
         

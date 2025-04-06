@@ -26,7 +26,7 @@ const Header = () => {
       className={cn(
         "fixed top-0 left-0 right-0 z-50 py-4 transition-all duration-300",
         scrolled
-          ? "bg-white/90 backdrop-blur-sm shadow-sm"
+          ? "bg-white/95 backdrop-blur-sm shadow-sm"
           : "bg-transparent"
       )}
     >
@@ -36,8 +36,8 @@ const Header = () => {
           <span className="text-purple-600">AI</span>
         </div>
         <nav>
-          <ul className="flex space-x-6 md:space-x-8 uppercase text-sm tracking-wider font-medium">
-            {["About", "Services", "Contact"].map((item) => (
+          <ul className="flex space-x-4 md:space-x-6 uppercase text-xs tracking-wider font-medium">
+            {["About", "Features", "Product", "Contact"].map((item) => (
               <li key={item}>
                 <a 
                   href={`#${item.toLowerCase()}`} 
