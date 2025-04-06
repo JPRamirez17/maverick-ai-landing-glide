@@ -5,9 +5,9 @@ import { Button } from "./ui/button";
 
 const Hero = () => {
   const problemPoints = [
-    "Legacy systems drain resources and slow innovation",
-    "Data silos prevent holistic business insights",
-    "Manual processes create costly inefficiencies"
+    "L’uso disordinato di AI personali mette a rischio sicurezza e coerenza",
+    "Dati frammentati e non condivisi rallentano il lavoro",
+    "Nessun standard sull’uso dell’intelligenza artificiale"
   ];
 
   return (
@@ -16,21 +16,11 @@ const Hero = () => {
         {/* Headline Section */}
         <div className="max-w-3xl">
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight mb-6 text-slate-900 font-display">
-            Redefining Intelligence For The Modern Enterprise
+            Maverick AI 
           </h1>
           <p className="text-lg md:text-xl text-slate-600 leading-relaxed">
-            Maverick AI delivers cutting-edge artificial intelligence solutions.
+            Reinventa la tua azienda con un gemello AI
           </p>
-        </div>
-
-        {/* Problem Points Section */}
-        <div className="space-y-6 max-w-2xl">
-          {problemPoints.map((point, index) => (
-            <div key={index} className="flex items-start gap-3 text-left">
-              <CircleX className="h-6 w-6 text-purple-500 flex-shrink-0 mt-0.5" />
-              <p className="text-slate-700">{point}</p>
-            </div>
-          ))}
         </div>
 
         {/* Call to Action Buttons */}
@@ -40,7 +30,7 @@ const Hero = () => {
             className="bg-purple-600 hover:bg-purple-700 text-white transition-colors"
             asChild
           >
-            <a href="#contact">Get Started</a>
+            <a href="#contact">Prenota una consulenza</a>
           </Button>
           <Button
             variant="outline"
@@ -48,7 +38,7 @@ const Hero = () => {
             className="border-slate-300 text-slate-700 hover:bg-slate-50"
             asChild
           >
-            <a href="#product">Learn More</a>
+            <a href="#product">Scopri di più</a>
           </Button>
         </div>
       </div>
