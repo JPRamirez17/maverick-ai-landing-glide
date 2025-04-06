@@ -12,31 +12,29 @@ const Hero = () => {
 
   return (
     <section id="about" className="pt-32 pb-16 md:pt-40 md:pb-24 bg-white">
-      <div className="container mx-auto px-4 md:px-6">
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12 items-start">
-          {/* Left column with headline */}
-          <div className="text-left">
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight mb-6 text-slate-900 font-display">
-              Redefining Intelligence For The Modern Enterprise
-            </h1>
-            <p className="text-lg md:text-xl text-slate-600 mb-8 leading-relaxed">
-              Maverick AI delivers cutting-edge artificial intelligence solutions.
-            </p>
-          </div>
-
-          {/* Right column with problem bullet points */}
-          <div className="space-y-6">
-            {problemPoints.map((point, index) => (
-              <div key={index} className="flex items-start gap-3">
-                <CircleX className="h-6 w-6 text-purple-500 flex-shrink-0 mt-0.5" />
-                <p className="text-slate-700">{point}</p>
-              </div>
-            ))}
-          </div>
+      <div className="container mx-auto px-4 md:px-6 flex flex-col items-center text-center space-y-10">
+        {/* Headline Section */}
+        <div className="max-w-3xl">
+          <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight mb-6 text-slate-900 font-display">
+            Redefining Intelligence For The Modern Enterprise
+          </h1>
+          <p className="text-lg md:text-xl text-slate-600 leading-relaxed">
+            Maverick AI delivers cutting-edge artificial intelligence solutions.
+          </p>
         </div>
 
-        {/* Call to action buttons */}
-        <div className="flex flex-col sm:flex-row justify-start items-center gap-4 mt-10">
+        {/* Problem Points Section */}
+        <div className="space-y-6 max-w-2xl">
+          {problemPoints.map((point, index) => (
+            <div key={index} className="flex items-start gap-3 text-left">
+              <CircleX className="h-6 w-6 text-purple-500 flex-shrink-0 mt-0.5" />
+              <p className="text-slate-700">{point}</p>
+            </div>
+          ))}
+        </div>
+
+        {/* Call to Action Buttons */}
+        <div className="flex flex-col sm:flex-row justify-center items-center gap-4">
           <Button
             size="lg"
             className="bg-purple-600 hover:bg-purple-700 text-white transition-colors"
@@ -59,3 +57,4 @@ const Hero = () => {
 };
 
 export default Hero;
+
