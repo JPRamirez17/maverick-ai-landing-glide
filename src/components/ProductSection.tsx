@@ -20,10 +20,14 @@ const ProductSection = () => {
         </div>
         
         <div className="grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
-          <div className="bg-slate-50 rounded-2xl h-80 flex items-center justify-center">
-            <div className="text-2xl text-slate-400 font-medium">Product Visualization</div>
+          <div className="bg-slate-50 rounded-2xl h-80 flex items-center justify-center overflow-hidden">
+            <img
+              src="https://www.shutterstock.com/image-photo/3d-model-robotic-hand-digital-260nw-2420591499.jpg"
+              alt="Robotic Hand AI Visualization"
+              className="object-cover w-full h-full"
+            />
           </div>
-          
+
           <div className="space-y-6">
             <div className="space-y-2">
               <h3 className="text-xl font-semibold text-slate-900">Enterprise-Grade Platform</h3>
