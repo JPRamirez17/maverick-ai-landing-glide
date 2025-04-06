@@ -22,6 +22,12 @@ const CalendarSection = () => {
             Book a personalized demo and consultation session.
           </p>
         </div>
+
+        <iframe 
+          src="https://cal.com/maverickai/30min" 
+            className="w-full h-[600px] border rounded-xl"
+            frameBorder="0"
+            />
         
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
           <Card className="border border-slate-200">
