@@ -5,9 +5,9 @@ import { Button } from "./ui/button";
 
 const Hero = () => {
   const problemPoints = [
-    "L’uso disordinato di AI personali mette a rischio sicurezza e coerenza",
-    "Dati frammentati e non condivisi rallentano il lavoro",
-    "Nessun standard sull’uso dell’intelligenza artificiale"
+    "Uso AI Non Regolamentato",
+    "Integrare l’AI è cruciale",
+    "Garantire la Privacy dei Dati"
   ];
 
   return (
@@ -16,10 +16,10 @@ const Hero = () => {
         {/* Headline Section */}
         <div className="max-w-3xl">
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight mb-6 text-slate-900 font-display">
-            Reinventa la tua azienda con un gemello AI
+            Maverick AI
           </h1>
           <p className="text-lg md:text-xl text-slate-600 leading-relaxed">
-           Non è solo AI. È la tua AI collaborativa, personalizzata, scalabile e sicura.
+            Crea il gemello artificiale della tua azienda
           </p>
         </div>
 
@@ -40,7 +40,7 @@ const Hero = () => {
             className="bg-purple-600 hover:bg-purple-700 text-white transition-colors"
             asChild
           >
-            <a href="#contact">Prenota una consulenza</a>
+            <a href="#contact">Prenota una demo</a>
           </Button>
           <Button
             variant="outline"
