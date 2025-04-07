@@ -35,20 +35,7 @@ const ProductSection = () => {
                 {t("product.questions.whatAnswer")}
               </p>
             </div>
-            
-            <div className="space-y-2">
-              <h3 className="text-xl font-semibold text-slate-900">{t("product.questions.privacy")}</h3>
-              <p className="text-slate-600">
-                {t("product.questions.privacyAnswer")}
-              </p>
-            </div>
-            
-            <div className="space-y-2">
-              <h3 className="text-xl font-semibold text-slate-900">{t("product.questions.compatibility")}</h3>
-              <p className="text-slate-600">
-                {t("product.questions.compatibilityAnswer")}
-              </p>
-            </div>
+
           </div>
         </div>
       </div>

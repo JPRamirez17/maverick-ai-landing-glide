@@ -6,24 +6,24 @@
     "contacts": "Contatti"
   },
   "hero": {
-    "title": "Reinventa la tua azienda con un gemello AI",
-    "subtitle": "Non è solo AI. È la tua AI collaborativa, personalizzata, scalabile e sicura.",
+    "title": "Maverick AI",
+    "subtitle": "Crea il gemello artificiale della tua azienda",
     "problems": {
-      "first": "L'uso disordinato di AI personali mette a rischio sicurezza e coerenza",
-      "second": "Dati frammentati e non condivisi rallentano il lavoro",
-      "third": "Nessun standard sull'uso dell'intelligenza artificiale"
+      "first": "Uso AI Non Regolamentato",
+      "second": "Integrare l'Ai è cruciale",
+      "third": "Garantire la Privacy dei Dati"
     },
     "cta": {
-      "primary": "Prenota una consulenza",
+      "primary": "Prenota una demo",
       "secondary": "Scopri di più"
     }
   },
   "product": {
-    "title": "Potenzia la Tua Azienda con il Suo Gemello AI",
-    "subtitle": "Maverick AI crea un'organizzazione più intelligente, dove l'AI lavora per le persone, le aiuta a collaborare meglio e può persino parlare al loro posto quando necessario.",
+    "title": "Cos'è una AI Twin Company",
+    "subtitle": "Una AI Twin Company è una copia artificiale e intelligente della tua azienda, costruita attraverso l’integrazione di un modello linguistico su misura (LLM) con gemelli digitali personalizzati per ogni dipendente. Questo approccio innovativo unisce l’intelligenza artificiale collettiva dell’organizzazione con la creazione di gemelli individuali delle persone. ",
     "questions": {
-      "what": "Gemello AI aziendale?",
-      "whatAnswer": "Un'AI creata su misura per la tua azienda: conosce i tuoi processi, adotta il tuo stile comunicativo e si adatta al modo in cui lavori. È come avere un clone digitale del tuo team, sempre pronto ad agire.",
+      "what": "Il Risultato",
+      "whatAnswer": "Una vera e propria copia artificiale dell’organico aziendale grazie ad un sistema intelligente e collaborativo che migliora l’efficienza operativa e decisionale a ogni livello.",
       "privacy": "Privacy?",
       "privacyAnswer": "I dati aziendali rimangono completamente sotto il tuo controllo, protetti da crittografia avanzata e accessi personalizzati. Solo tu decidi cosa l'AI può sapere, ricordare e condividere.",
       "compatibility": "Compatibilità?",
@@ -49,8 +49,8 @@
     }
   },
   "calendar": {
-    "title": "Prenota una consulenza",
-    "description": "Inizia oggi a costruire il tuo Gemello AI Aziendale e porta il tuo team nel futuro del lavoro. Prenota una demo con i nostri specialisti AI per scoprire come Maverick AI può trasformare le operazioni della tua azienda."
+    "title": "Prenota una Demo",
+    "description": "Costruita per la tua azienda. Addestrata sui tuoi dati. Con i tuoi dipendenti \n Collaborativa. Personalizzata. Scalabile. Sicura.\nInizia oggi a costruire la tua AI Twin Company\n e porta il tuo team nel futuro del lavoro."
   },
   "footer": {
     "copyright": "© {year} Maverick AI. All rights reserved."
