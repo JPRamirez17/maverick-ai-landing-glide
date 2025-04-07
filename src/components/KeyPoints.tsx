@@ -5,19 +5,19 @@ import { Brain, User, MessageCircle } from "lucide-react";
 const features = [
   {
     icon: <Brain className="h-10 w-10 text-purple-600" />,
-    title: "🚀 Il Cervello AI della tua Azienda",
+    title: "Il Cervello AI della tua Azienda",
     description:
       "Creiamo un modello AI privato, addestrato sui tuoi documenti, processi, stile comunicativo e cultura aziendale. È come avere un’Intelligenza Artificiale personalizzata per la tua impresa — sicura, precisa, e perfettamente allineata con il tuo modo di lavorare."
   },
   {
     icon: <User className="h-10 w-10 text-purple-600" />,
-    title: "👤 Un Gemello AI per Ogni Dipendente",
+    title: "Un Gemello AI per Ogni Dipendente",
     description:
       "Ogni collaboratore ha il proprio gemello AI: un assistente intelligente che conosce i suoi compiti, le sue abitudini e il suo modo di comunicare. Automatizza attività ripetitive, aumenta la produttività e impara nel tempo."
   },
   {
     icon: <MessageCircle className="h-10 w-10 text-purple-600" />,
-    title: "💬 Comunicazione",
+    title: "Comunicazione",
     description:
       "Dipendenti e manager possono interagire direttamente con i gemelli AI degli altri: chiedere aggiornamenti, coordinare attività, o sapere su cosa stanno lavorando i colleghi. Il tuo gemello può rispondere anche quando non sei disponibile."
   }
