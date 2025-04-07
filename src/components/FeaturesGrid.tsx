@@ -23,7 +23,7 @@ const features = [
   }
 ];
 
-const KeyPoints = () => {
+const FeaturesGrid = () => {
   return (
     <section className="py-20 bg-slate-50">
       <div className="container mx-auto px-4 md:px-6">
@@ -53,4 +53,4 @@ const KeyPoints = () => {
   );
 };
 
-export default KeyPoints;
+export default FeaturesGrid;
