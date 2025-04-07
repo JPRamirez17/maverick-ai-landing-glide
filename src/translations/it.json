@@ -1,4 +1,3 @@
-
 {
   "header": {
     "about": "About",
@@ -48,6 +47,10 @@
         "description": "Dipendenti e manager possono interagire direttamente con i gemelli AI degli altri: chiedere aggiornamenti, coordinare attività, o sapere su cosa stanno lavorando i colleghi. Il tuo gemello può rispondere anche quando non sei disponibile."
       }
     }
+  },
+  "calendar": {
+    "title": "Prenota una consulenza",
+    "description": "Inizia oggi a costruire il tuo Gemello AI Aziendale e porta il tuo team nel futuro del lavoro. Prenota una demo con i nostri specialisti AI per scoprire come Maverick AI può trasformare le operazioni della tua azienda."
   },
   "footer": {
     "copyright": "© {year} Maverick AI. All rights reserved."

@@ -1,4 +1,3 @@
-
 {
   "header": {
     "about": "About",
@@ -48,6 +47,10 @@
         "description": "Employees and managers can interact directly with others' AI twins: ask for updates, coordinate tasks, or know what colleagues are working on. Your twin can respond even when you're unavailable."
       }
     }
+  },
+  "calendar": {
+    "title": "Book a consultation",
+    "description": "Start building your Corporate AI Twin today and bring your team into the future of work. Schedule a demo with our AI specialists to discover how Maverick AI can transform your company's operations."
   },
   "footer": {
     "copyright": "© {year} Maverick AI. All rights reserved."

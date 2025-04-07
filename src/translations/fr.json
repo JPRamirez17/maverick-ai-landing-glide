@@ -1,4 +1,3 @@
-
 {
   "header": {
     "about": "À propos",
@@ -21,7 +20,7 @@
   },
   "product": {
     "title": "Renforcez Votre Entreprise avec Son Jumeau IA",
-    "subtitle": "Maverick AI crée une organisation plus intelligente, où l'IA travaille pour les personnes, les aide à mieux collaborer et peut même parler en leur nom lorsque c'est nécessaire.",
+    "subtitle": "Maverick AI crée une organisation plus intelligente, où l'IA travaille pour les personnes, l'aide à mieux collaborer et peut même parler en leur nom lorsque c'est nécessaire.",
     "questions": {
       "what": "Jumeau IA d'entreprise ?",
       "whatAnswer": "Une IA sur mesure pour votre entreprise : elle connaît vos processus, adopte votre style de communication et s'adapte à votre façon de travailler. C'est comme avoir un clone numérique de votre équipe, toujours prêt à agir.",
@@ -48,6 +47,10 @@
         "description": "Les employés et les managers peuvent interagir directement avec les jumeaux IA des autres : demander des mises à jour, coordonner des tâches ou savoir ce sur quoi travaillent les collègues. Votre jumeau peut répondre même lorsque vous n'êtes pas disponible."
       }
     }
+  },
+  "calendar": {
+    "title": "Réserver une consultation",
+    "description": "Commencez dès aujourd'hui à construire votre Jumeau IA d'Entreprise et amenez votre équipe dans le futur du travail. Planifiez une démonstration avec nos spécialistes en IA pour découvrir comment Maverick AI peut transformer les opérations de votre entreprise."
   },
   "footer": {
     "copyright": "© {year} Maverick AI. Tous droits réservés."
