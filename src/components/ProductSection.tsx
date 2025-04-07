@@ -22,7 +22,7 @@ const ProductSection = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
           <div className="bg-slate-50 rounded-2xl h-80 flex items-center justify-center overflow-hidden">
             <img
-              src="https://www.shutterstock.com/image-photo/3d-model-robotic-hand-digital-260nw-2420591499.jpg"
+              src="https://images.squarespace-cdn.com/content/v1/580fd28d20099ec7189b72cf/6f9da8e6-9fed-4203-a5cf-0d12ece9fa8b/Aritificial-Intelligence-1024x419.jpg"
               alt="Robotic Hand AI Visualization"
               className="object-cover w-full h-full"
             />
