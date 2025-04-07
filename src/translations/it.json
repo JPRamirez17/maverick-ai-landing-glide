@@ -1,0 +1,55 @@
+
+{
+  "header": {
+    "about": "About",
+    "product": "Prodotto",
+    "features": "Features",
+    "contacts": "Contatti"
+  },
+  "hero": {
+    "title": "Reinventa la tua azienda con un gemello AI",
+    "subtitle": "Non è solo AI. È la tua AI collaborativa, personalizzata, scalabile e sicura.",
+    "problems": {
+      "first": "L'uso disordinato di AI personali mette a rischio sicurezza e coerenza",
+      "second": "Dati frammentati e non condivisi rallentano il lavoro",
+      "third": "Nessun standard sull'uso dell'intelligenza artificiale"
+    },
+    "cta": {
+      "primary": "Prenota una consulenza",
+      "secondary": "Scopri di più"
+    }
+  },
+  "product": {
+    "title": "Potenzia la Tua Azienda con il Suo Gemello AI",
+    "subtitle": "Maverick AI crea un'organizzazione più intelligente, dove l'AI lavora per le persone, le aiuta a collaborare meglio e può persino parlare al loro posto quando necessario.",
+    "questions": {
+      "what": "Gemello AI aziendale?",
+      "whatAnswer": "Un'AI creata su misura per la tua azienda: conosce i tuoi processi, adotta il tuo stile comunicativo e si adatta al modo in cui lavori. È come avere un clone digitale del tuo team, sempre pronto ad agire.",
+      "privacy": "Privacy?",
+      "privacyAnswer": "I dati aziendali rimangono completamente sotto il tuo controllo, protetti da crittografia avanzata e accessi personalizzati. Solo tu decidi cosa l'AI può sapere, ricordare e condividere.",
+      "compatibility": "Compatibilità?",
+      "compatibilityAnswer": "Nessuna rivoluzione, solo evoluzione. Il nostro sistema si integra perfettamente con gli strumenti che già usi — da Slack a Notion e molti altri. Continui a lavorare come sempre, ma con il potere dell'AI al tuo fianco."
+    }
+  },
+  "features": {
+    "title": "Perchè scegliere Maverick AI",
+    "subtitle": "Crea la tua vera e propria copia artificiale dell'organico aziendale grazie ad un sistema intelligente e collaborativo che migliora l'efficienza operativa e decisionale a ogni livello.",
+    "items": {
+      "brain": {
+        "title": "Il Cervello AI della tua Azienda",
+        "description": "Creiamo un modello AI privato, addestrato sui tuoi documenti, processi, stile comunicativo e cultura aziendale. È come avere un'Intelligenza Artificiale personalizzata per la tua impresa — sicura, precisa, e perfettamente allineata con il tuo modo di lavorare."
+      },
+      "twin": {
+        "title": "Un Gemello AI per Ogni Dipendente",
+        "description": "Ogni collaboratore ha il proprio gemello AI: un assistente intelligente che conosce i suoi compiti, le sue abitudini e il suo modo di comunicare. Automatizza attività ripetitive, aumenta la produttività e impara nel tempo."
+      },
+      "communication": {
+        "title": "Comunicazione",
+        "description": "Dipendenti e manager possono interagire direttamente con i gemelli AI degli altri: chiedere aggiornamenti, coordinare attività, o sapere su cosa stanno lavorando i colleghi. Il tuo gemello può rispondere anche quando non sei disponibile."
+      }
+    }
+  },
+  "footer": {
+    "copyright": "© {year} Maverick AI. All rights reserved."
+  }
+}

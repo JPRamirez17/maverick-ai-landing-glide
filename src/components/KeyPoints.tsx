@@ -1,38 +1,38 @@
 
 import React from "react";
 import { Brain, User, MessageCircle } from "lucide-react";
-
-const features = [
-  {
-    icon: <Brain className="h-10 w-10 text-purple-600" />,
-    title: "Il Cervello AI della tua Azienda",
-    description:
-      "Creiamo un modello AI privato, addestrato sui tuoi documenti, processi, stile comunicativo e cultura aziendale. È come avere un’Intelligenza Artificiale personalizzata per la tua impresa — sicura, precisa, e perfettamente allineata con il tuo modo di lavorare."
-  },
-  {
-    icon: <User className="h-10 w-10 text-purple-600" />,
-    title: "Un Gemello AI per Ogni Dipendente",
-    description:
-      "Ogni collaboratore ha il proprio gemello AI: un assistente intelligente che conosce i suoi compiti, le sue abitudini e il suo modo di comunicare. Automatizza attività ripetitive, aumenta la produttività e impara nel tempo."
-  },
-  {
-    icon: <MessageCircle className="h-10 w-10 text-purple-600" />,
-    title: "Comunicazione",
-    description:
-      "Dipendenti e manager possono interagire direttamente con i gemelli AI degli altri: chiedere aggiornamenti, coordinare attività, o sapere su cosa stanno lavorando i colleghi. Il tuo gemello può rispondere anche quando non sei disponibile."
-  }
-];
+import { useLanguage } from "@/contexts/LanguageContext";
 
 const KeyPoints = () => {
+  const { t } = useLanguage();
+
+  const features = [
+    {
+      icon: <Brain className="h-10 w-10 text-purple-600" />,
+      title: t("features.items.brain.title"),
+      description: t("features.items.brain.description")
+    },
+    {
+      icon: <User className="h-10 w-10 text-purple-600" />,
+      title: t("features.items.twin.title"),
+      description: t("features.items.twin.description")
+    },
+    {
+      icon: <MessageCircle className="h-10 w-10 text-purple-600" />,
+      title: t("features.items.communication.title"),
+      description: t("features.items.communication.description")
+    }
+  ];
+
   return (
-    <section className="py-20 bg-slate-50">
+    <section id="features" className="py-20 bg-slate-50">
       <div className="container mx-auto px-4 md:px-6">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold mb-4 text-slate-900 font-display">
-            Perchè scegliere Maverick AI
+            {t("features.title")}
           </h2>
           <p className="text-slate-600 max-w-2xl mx-auto">
-            Crea la tua vera e propria copia artificiale dell’organico aziendale grazie ad un sistema intelligente e collaborativo che migliora l’efficienza operativa e decisionale a ogni livello.
+            {t("features.subtitle")}
           </p>
         </div>
         

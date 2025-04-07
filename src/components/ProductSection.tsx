@@ -1,18 +1,21 @@
 
 import React from "react";
 import { Sparkles } from "lucide-react";
+import { useLanguage } from "@/contexts/LanguageContext";
 
 const ProductSection = () => {
+  const { t } = useLanguage();
+  
   return (
     <section id="product" className="py-20 bg-white">
       <div className="container mx-auto px-4 md:px-6">
         <div className="max-w-3xl mx-auto text-center mb-16">
           <Sparkles className="h-10 w-10 text-purple-600 mx-auto mb-6" />
           <h2 className="text-3xl md:text-4xl font-bold mb-6 text-slate-900 font-display">
-            Potenzia la Tua Azienda con il Suo Gemello AI
+            {t("product.title")}
           </h2>
           <p className="text-lg text-slate-600">
-            Maverick AI crea un’organizzazione più intelligente, dove l’AI lavora per le persone, le aiuta a collaborare meglio e può persino parlare al loro posto quando necessario.
+            {t("product.subtitle")}
           </p>
         </div>
         
@@ -27,23 +30,23 @@ const ProductSection = () => {
 
           <div className="space-y-6">
             <div className="space-y-2">
-              <h3 className="text-xl font-semibold text-slate-900">Gemello AI aziendale?</h3>
+              <h3 className="text-xl font-semibold text-slate-900">{t("product.questions.what")}</h3>
               <p className="text-slate-600">
-              Un’AI creata su misura per la tua azienda: conosce i tuoi processi, adotta il tuo stile comunicativo e si adatta al modo in cui lavori. È come avere un clone digitale del tuo team, sempre pronto ad agire.
+                {t("product.questions.whatAnswer")}
               </p>
             </div>
             
             <div className="space-y-2">
-              <h3 className="text-xl font-semibold text-slate-900">Privacy?</h3>
+              <h3 className="text-xl font-semibold text-slate-900">{t("product.questions.privacy")}</h3>
               <p className="text-slate-600">
-                I dati aziendali rimangono completamente sotto il tuo controllo, protetti da crittografia avanzata e accessi personalizzati. Solo tu decidi cosa l’AI può sapere, ricordare e condividere.
+                {t("product.questions.privacyAnswer")}
               </p>
             </div>
             
             <div className="space-y-2">
-              <h3 className="text-xl font-semibold text-slate-900">Compatibilità?</h3>
+              <h3 className="text-xl font-semibold text-slate-900">{t("product.questions.compatibility")}</h3>
               <p className="text-slate-600">
-              Nessuna rivoluzione, solo evoluzione. Il nostro sistema si integra perfettamente con gli strumenti che già usi — da Slack a Notion e molti altri. Continui a lavorare come sempre, ma con il potere dell’AI al tuo fianco.
+                {t("product.questions.compatibilityAnswer")}
               </p>
             </div>
           </div>
