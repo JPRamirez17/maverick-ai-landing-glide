@@ -11,7 +11,12 @@ const ProductSection = () => {
           <h2 className="text-3xl md:text-4xl font-bold mb-6 text-slate-900 font-display">
             AI-Powered Solutions for Every Business Challenge
           </h2>
-          
+          <p className="text-lg text-slate-600">
+            Our platform combines advanced machine learning, natural language processing, 
+            and computer vision technologies to create tailored solutions for your specific 
+            business needs. From automated data analysis to predictive forecasting and intelligent 
+            process automation, Maverick AI transforms how you operate.
+          </p>
         </div>
         
         <div className="grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
