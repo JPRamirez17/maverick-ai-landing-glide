@@ -9,13 +9,10 @@ const ProductSection = () => {
         <div className="max-w-3xl mx-auto text-center mb-16">
           <Sparkles className="h-10 w-10 text-purple-600 mx-auto mb-6" />
           <h2 className="text-3xl md:text-4xl font-bold mb-6 text-slate-900 font-display">
-            AI-Powered Solutions for Every Business Challenge
+            Potenzia la Tua Azienda con il Suo Gemello AI
           </h2>
           <p className="text-lg text-slate-600">
-            Our platform combines advanced machine learning, natural language processing, 
-            and computer vision technologies to create tailored solutions for your specific 
-            business needs. From automated data analysis to predictive forecasting and intelligent 
-            process automation, Maverick AI transforms how you operate.
+            Maverick AI crea un’organizzazione più intelligente, dove l’AI lavora per le persone, le aiuta a collaborare meglio e può persino parlare al loro posto quando necessario.
           </p>
         </div>
         
@@ -30,26 +27,23 @@ const ProductSection = () => {
 
           <div className="space-y-6">
             <div className="space-y-2">
-              <h3 className="text-xl font-semibold text-slate-900">Enterprise-Grade Platform</h3>
+              <h3 className="text-xl font-semibold text-slate-900">Gemello AI aziendale?</h3>
               <p className="text-slate-600">
-                Built for scale, security, and reliability, our platform powers
-                AI applications across the largest enterprises with uncompromising performance.
+              Un’AI creata su misura per la tua azienda: conosce i tuoi processi, adotta il tuo stile comunicativo e si adatta al modo in cui lavori. È come avere un clone digitale del tuo team, sempre pronto ad agire.
               </p>
             </div>
             
             <div className="space-y-2">
-              <h3 className="text-xl font-semibold text-slate-900">Customizable Solutions</h3>
+              <h3 className="text-xl font-semibold text-slate-900">Privacy?</h3>
               <p className="text-slate-600">
-                Every business is unique. Our AI models adapt to your specific industry,
-                processes, and goals, delivering precision results where they matter most.
+                I dati aziendali rimangono completamente sotto il tuo controllo, protetti da crittografia avanzata e accessi personalizzati. Solo tu decidi cosa l’AI può sapere, ricordare e condividere.
               </p>
             </div>
             
             <div className="space-y-2">
-              <h3 className="text-xl font-semibold text-slate-900">Future-Ready Technology</h3>
+              <h3 className="text-xl font-semibold text-slate-900">Compatibilità?</h3>
               <p className="text-slate-600">
-                Stay ahead with continuously evolving AI capabilities that incorporate the
-                latest breakthroughs in machine learning and artificial intelligence research.
+              Nessuna rivoluzione, solo evoluzione. Il nostro sistema si integra perfettamente con gli strumenti che già usi — da Slack a Notion e molti altri. Continui a lavorare come sempre, ma con il potere dell’AI al tuo fianco.
               </p>
             </div>
           </div>
