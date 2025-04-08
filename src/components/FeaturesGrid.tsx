@@ -1,6 +1,6 @@
 
 import React from "react";
-import { Brain, User, MessageCircle } from "lucide-react";
+import { Brain, User, MessageCircle, Lock, PencilRuler } from "lucide-react";
 
 const features = [
   {
@@ -20,10 +20,22 @@ const features = [
     title: "Comunicazione",
     description:
       "Dipendenti e manager possono interagire direttamente con i gemelli AI degli altri: chiedere aggiornamenti, coordinare attività, o sapere su cosa stanno lavorando i colleghi. Il tuo gemello può rispondere anche quando non sei disponibile."
+  },
+  {
+    icon: <Lock className="h-10 w-10 text-purple-600" />,
+    title: "Privacy e Controllo Totale",
+    description:
+      "Tutti i dati restano sotto il tuo controllo, con crittografia di livello enterprise e gestione avanzata degli accessi. Decidi tu cosa ogni AI deve sapere, conservare e condividere."
+  },
+  {
+    icon: <PencilRuler className="h-10 w-10 text-purple-600" />,
+    title: "Compatibile con i Tuoi Strumenti",
+    description:
+      "Si integra facilmente con la suite Microsoft, Slack, Notion, Google Workspace, CRM"
   }
 ];
 
-const KeyPoints = () => {
+const FeaturesGrid = () => {
   return (
     <section className="py-20 bg-slate-50">
       <div className="container mx-auto px-4 md:px-6">
@@ -32,7 +44,7 @@ const KeyPoints = () => {
             Perchè scegliere Maverick AI
           </h2>
           <p className="text-slate-600 max-w-2xl mx-auto">
-            Crea la tua vera e propria copia artificiale dell’organico aziendale grazie ad un sistema intelligente e collaborativo che migliora l’efficienza operativa e decisionale a ogni livello.
+            Maverick AI ti permette di creare la gemella artificiale della tua azienda. 
           </p>
         </div>
         
@@ -53,4 +65,4 @@ const KeyPoints = () => {
   );
 };
 
-export default KeyPoints;
+export default FeaturesGrid;

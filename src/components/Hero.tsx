@@ -2,15 +2,12 @@
 import React from "react";
 import { CircleX } from "lucide-react";
 import { Button } from "./ui/button";
-import { useLanguage } from "@/contexts/LanguageContext";
 
 const Hero = () => {
-  const { t } = useLanguage();
-  
   const problemPoints = [
-    t("hero.problems.first"),
-    t("hero.problems.second"),
-    t("hero.problems.third")
+    "Uso AI Non Regolamentato",
+    "Integrare l’AI è cruciale",
+    "Garantire la Privacy dei Dati"
   ];
 
   return (
@@ -19,10 +16,10 @@ const Hero = () => {
         {/* Headline Section */}
         <div className="max-w-3xl">
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight mb-6 text-slate-900 font-display">
-            {t("hero.title")}
+            Maverick AI
           </h1>
           <p className="text-lg md:text-xl text-slate-600 leading-relaxed">
-            {t("hero.subtitle")}
+            Crea il gemello artificiale della tua azienda
           </p>
         </div>
 
@@ -43,7 +40,7 @@ const Hero = () => {
             className="bg-purple-600 hover:bg-purple-700 text-white transition-colors"
             asChild
           >
-            <a href="#contact">{t("hero.cta.primary")}</a>
+            <a href="#contact">Prenota una demo</a>
           </Button>
           <Button
             variant="outline"
@@ -51,7 +48,7 @@ const Hero = () => {
             className="border-slate-300 text-slate-700 hover:bg-slate-50"
             asChild
           >
-            <a href="#product">{t("hero.cta.secondary")}</a>
+            <a href="#product">Scopri di più</a>
           </Button>
         </div>
       </div>
@@ -60,3 +57,4 @@ const Hero = () => {
 };
 
 export default Hero;
+
